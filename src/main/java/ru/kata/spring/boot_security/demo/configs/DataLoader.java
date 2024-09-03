@@ -1,24 +1,15 @@
 package ru.kata.spring.boot_security.demo.configs;
 
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Component;
-import ru.kata.spring.boot_security.demo.model.Role;
-import ru.kata.spring.boot_security.demo.model.User;
-import ru.kata.spring.boot_security.demo.repository.RoleDao;
-import ru.kata.spring.boot_security.demo.repository.UserDao;
-
-import javax.transaction.Transactional;
-
+/*
 @Component
 public class DataLoader implements CommandLineRunner {
 
 
-    final RoleDao roleDao;
+    final RoleDaoImpl roleDao;
     final PasswordEncoder passwordEncoder;
     final UserDao userDao;
 
-    public DataLoader(RoleDao roleDao, PasswordEncoder passwordEncoder, UserDao userDao) {
+    public DataLoader(RoleDaoImpl roleDao, PasswordEncoder passwordEncoder, UserDao userDao) {
         this.userDao = userDao;
         this.roleDao = roleDao;
         this.passwordEncoder = passwordEncoder;
@@ -55,6 +46,7 @@ public class DataLoader implements CommandLineRunner {
 
     }
 }
+*/
 
 
 
